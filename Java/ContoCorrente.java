@@ -2,7 +2,10 @@ public class ContoCorrente {
 
 	private float saldo;
 
-	ContoCorrente(float saldo){
+	ContoCorrente(float saldo) throws Exception{
+		if(saldo < 0){
+			throw new Exception("Saldo negativo!");
+		}
 		this.saldo = saldo;
 	}
 
@@ -14,7 +17,7 @@ public class ContoCorrente {
 		System.out.println("Saldo attuale: " + saldo);
 	}
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception{
 
         ContoCorrente cc;
         cc = new ContoCorrente(saldo: 100); // Inizializza saldo a 100
