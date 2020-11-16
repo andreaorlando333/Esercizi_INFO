@@ -6,11 +6,11 @@ public class ContoCorrente {
 		this.saldo = saldo;
 	}
 
-	public void deposita(float input){ 
+	public void deposita(float input){  // Incremento del saldo
 		saldo = saldo + input;
 	}
 
-	public void stampa(){
+	public void stampa(){  // Stampa del saldo
 		System.out.println("Saldo attuale: " + saldo);
 	}
 
