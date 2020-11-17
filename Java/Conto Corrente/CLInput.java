@@ -9,7 +9,7 @@ public class CLIinput {
 	CLIinput(){
 
 	InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        br = new BufferedReader(isr);
         
 	}
 
