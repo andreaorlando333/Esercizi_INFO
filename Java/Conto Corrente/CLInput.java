@@ -1,4 +1,5 @@
 import java.io.InputStreamReader;
+import java.io.IOException;
 import java.io.BufferedReader;
 
 public class CLIinput {
@@ -13,8 +14,8 @@ public class CLIinput {
 	}
 
 	public String readString(String prompt){
-		System.out.print(prompt);
-		while() {
+		String ris = null;
+		while(ris == null) {
 
 			try{
 				return br.readLine();
@@ -24,5 +25,7 @@ public class CLIinput {
 			}
 
 		}
+		
+	return ris;
 	}
 }
