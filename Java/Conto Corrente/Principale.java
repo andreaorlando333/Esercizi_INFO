@@ -3,9 +3,11 @@ import java.io.InputStreamReader;
 
 public class Principale {
 
-	    public static void main(String[] args){
+ public static void main(String[] args){
 
         ContoCorrente cc;
+	CLInput cli = new CLIinput();
+	String x = cli.readString(prompt : "Inserisci una stringa:");
         try {
 
         	cc = new ContoCorrente(saldo: -100);
