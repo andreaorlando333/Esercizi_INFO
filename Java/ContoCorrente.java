@@ -17,14 +17,19 @@ public class ContoCorrente {
 		System.out.println("Saldo attuale: " + saldo);
 	}
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
 
         ContoCorrente cc;
-        cc = new ContoCorrente(saldo: 100); // Inizializza saldo a 100
+        try {
+        	cc = new ContoCorrente(saldo: -100);
+        } catch (Exception e){
+
+        	System.out.println("Il saldo deve essere positivo.")
+        }
+        
         cc.stampa(); // Stampa
         cc.deposita(100); // Deposita 100
         cc.stampa();
     }
 
 }
-
