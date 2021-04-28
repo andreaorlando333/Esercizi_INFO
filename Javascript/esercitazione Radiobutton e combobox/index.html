@@ -1,0 +1,63 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<b>Prova JavaScript</b>
+
+		<body>
+
+			
+			<script type= "text/javascript" src= "gestione.js">
+			</script>
+				
+			<p>
+				Inserire un numero da sommare: <input type="text" id="txtNumero">
+				<input type= "button" id= "btnAggiungi" value= "Aggiungi!"
+				onclick="gestisciAggiungi();">
+			</p>
+
+			<p>
+				Il totale è <span id = "risultato"></span>
+			</p>
+
+
+			<p>
+					<p class= "mioparagrafo"> </p>
+
+					<p class= "mioparagrafo"> </p>
+
+					<p class= "mioparagrafo"> </p>
+
+					<input type="button" value="Aggiungi paragrafi"
+					onclick="cambiaTesto();">
+			</p>
+
+			<p>
+				Ecco una combobox:
+				<select id="cmbRuolo">
+					<option value="studente">Studente</option>
+					<option value="insegnante">Insegnante</option>
+					<option value="prova">Prova</option>
+				</select>
+				<input type="button" value="Mostra" onclick="mostraCombo();">
+
+			</p>
+
+			<p>
+				Ecco dei radio button: <br/>
+				<input type = "radio" name = "rdbNumeri"
+				id = "rdbPrimo" checked="checked"> Primo <br>
+				<input type = "radio" name = "rdbNumeri"
+				id = "rdbSecondo"> Secondo <br>
+			</p>
+
+
+
+		</body>
+	</head>
+
+
+</html>
