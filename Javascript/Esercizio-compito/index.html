@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<b>Esercizio con tabella</b>
+
+		<body>
+
+			
+			<script type= "text/javascript" src= "gestione.js">
+			</script>
+				
+			<p>
+				Nome: <input type="text" id="txtNome">
+			</p>
+
+			<p>
+				Ruolo:
+				<select id="cmbRuolo">
+					<option value="studente">Studente</option>
+					<option value="insegnante">Insegnante</option>
+				</select>
+				
+			</p>
+
+			<p>
+				Assente: 
+				<input type = "radio" name = "rdbAssenze"
+				id = "rdbAssenteSi" checked="checked"> Si
+				<input type = "radio" name = "rdbAssenze"
+				id = "rdbAssenteNo"> No
+			</p>
+
+			<p>	
+
+					<input type="button" value="Aggiungi a tabella"
+					onclick="aggiungiElemento();">
+			</p>
+
+			
+				<table>
+				<tr><td><b>Nome</b></td>
+				<td><b>Ruolo</b></td>
+				<td><b>Assenza</b></td>
+				<td><b>Punteggio</b></td></tr>
+
+				<tr class = "paragrafoAggiunto"></tr>
+
+
+
+				
+				</table>
+
+				
+			<p>
+				
+
+			</p>
+
+			<p>
+				
+			</p>
+
+
+
+		</body>
+	</head>
+
+
+</html>
