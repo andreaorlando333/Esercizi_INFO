@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nome e cognome</title>
+    <script src="gestione.js"></script>
+    <link rel="stylesheet" href="stile.css"/>
+</head>
+
+<body onload="inizializzaPagina()">
+<div>
+    Le parti rosse dovranno essere gestite attraverso JS
+</div>
+<div class="pannello">
+    Inserimento di una nuova persona
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td><input type="text" id="txtNome"></td>
+        </tr>
+        <tr>
+            <td>Cognome</td>
+            <td><input type="text" id="txtCognome"></td>
+        </tr>
+    </table>
+    <input type="button" value="Aggiungi" onclick="aggiungiPersona()">
+</div>
+<div>
+    <div id="elenco" class="pannello">
+        Elenco
+        <ul id="persone" class="daJS">
+        </ul>
+    </div>
+    <div id="dettagli" class="pannello">
+        Dettagli
+        <div id="dettagliPersona" class="daJS">
+        </div>
+    </div>
+</div>
+<script>
+    disegnaElenco();
+</script>
+</body>
+</html>

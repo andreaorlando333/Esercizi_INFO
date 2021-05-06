@@ -1,0 +1,16 @@
+#elenco {
+    float: right;
+    width: 40%;
+}
+
+#dettagli {
+    width: 55%;
+}
+
+.pannello {
+    border-style: groove;
+}
+
+.daJS {
+    color: red;
+}
