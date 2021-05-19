@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esercizio</title>
+	<script type="text/javascript" src = "eventi.js"></script>
+</head>
+<body>
+	<div>
+		<b>Nome</b>: <input type = "text" id = "txtNome"><br/><br/>
+		<b>Altezza</b>: <input type = "text" id = "txtAltezza"><br/><br/>
+		<input value = "Aggiungi riga" type = "button" onclick="aggiungiRiga()"><br/><br/>
+	
+	</div>
+	<div>
+		Funzioni aggiuntive: <br>
+		<input value = "Rimuovi sotto 1,50" type = "button" onclick="rimuovi()">
+		<input value = "Ordina" type = "button" onclick="ordina()">
+		<input value = "Mostra persone sopra 1,80" type = "button" onclick="mostra180()">
+	</div>
+	<br/><br/>
+	<table id = "tblPersone">
+
+	</table>
+	<br><br>
+
+	<span id = "risultato"></span> 
+
+</body>
+</html>
