@@ -13,11 +13,11 @@ int main(){
     int vettore_uno[100];
     int vettore_due[100];
     int temp;
-    printf("inserire la dimenzione desisderata:");
+    printf("inserire la dimenzione desisderata: ");
     scanf("%d",&n);
     printf("il numero  è %d",n);
 
-    prinf("inserire i valori del primo vettore")
+    prinf("inserire i valori del primo vettore: ")
     int i;
     for( i = 0 ; i<n;i++){
         printf("inserire il volore numero %d",i);
@@ -25,7 +25,7 @@ int main(){
         vettore_uno[i]=temp;
 
     }
-    prinf("inserire i valori del secondo vettore")
+    prinf("inserire i valori del secondo vettore: ")
     int j;
     for( j = 0 ; j<n;j++){
         printf("inserire il volore numero %d",j);
