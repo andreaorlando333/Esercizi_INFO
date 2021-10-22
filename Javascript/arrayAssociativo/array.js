@@ -1,5 +1,5 @@
 
-// Array associativo
+// Array associativo - es
 
 function funzione(){
 
